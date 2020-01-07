@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "ejmadkins-cloud-build-test-tfstate"
     prefix = "env/dev"
   }
 }
